@@ -1,41 +1,99 @@
 # Day Two
 
-##  Цалингийн Нэмэгдэл Тооцоолох (Beecrowd 1048)
+## 1. Тээврийн Хэрэгсэл (Vehicle, Car, Truck)
 
-###  Төслийн зорилго
+### Төслийн зорилго
 
-Энэхүү жижиг Java програм нь ажилтны үндсэн цалингийн хэмжээ дээр үндэслэн нэмэгдэл тооцоолж, шинэ цалин, нэмэгдлийн хэмжээ болон нэмэгдлийн хувийг хэвлэнэ. Уг даалгавар нь Beecrowd шүүлтүүр дээр **1048 - Salary Increase** бодлогоор ирсэн.
+Энээхүү Java төслийн зорилго нь удамшил болон полиморфизмын ойлголтуудыг ашиглан `Vehicle`, `Car`, `Truck` классуудыг үүсгэж, объект хандалтат програмчлалын дадлага хийх явдал юм.
 
+### Файлууд
 
-###  Ашигласан хэл
+* `Vehicle.java`
+* `Car.java`
+* `Truck.java`
+* `MainVehicle.java`
 
-- `Java 17`
-- `Scanner` ангилал ашиглан хэрэглэгчийн оруулсан цалинг авч боловсруулна.
+### Гаралт
 
+```
+Vehicle Details:
+Make: Suzuki
+Model: Swift
+Year: 2015
+Trunk Size: 15.1 hemjeetei
+Vehicle Details:
+Make: Ford
+Model: F-150
+Year: 2016
+Daatsiin hemjee: 3.5 ton
+```
 
-###  Оролт
+### Ажиллуулах
 
-Нэг мөрөнд:
-- `double` төрлийн тоо (жишээ нь: `1500.00`)
+```
+bash
+javac Vehicle.java Car.java Truck.java MainVehicle.java
+java MainVehicle
+```
 
+---
 
+## 2. Цалингийн Нэмэгдэл Тооцоолох (Beecrowd 1048)
 
-###  Гаралт
+### Төслийн зорилго
 
-Гаралт дараах 3 мөрөнд хэвлэгдэнэ:
-1. **Шинэ цалин** (`Novo salario`)
-2. **Нэмэгдлийн хэмжээ** (`Reajuste ganho`)
-3. **Нэмэгдлийн хувь** (`Em percentual`)
+Ажилтны үндсэн цалингийн хэмжээ дээр үндэсэлэн нэмэгдэл тооцоолж, шинэ цалин, нэмэгдлийн хэмжээ болон хувийг хэвлэх Java програм.
 
+### Файл
 
+* `Employee.java`
 
-###  Жишээ
+### Жишээ
 
-```text
+```
 Оролт:
 400.00
 
 Гаралт:
-Novo salario: 460.00
-Reajuste ganho: 60.00
-Em percentual: 15 %
+Shine tsalin: 460.00
+Nemegdel: 60.00
+Nemegdel huviar: 15 %
+```
+
+### Ажиллуулах
+
+```
+bash
+javac Employee.java
+java Employee
+```
+
+---
+
+## 3. Машины Зогсоолын Систем (LeetCode 1603)
+
+### Төслийн зорилго
+
+Том, дунд, жижиг машины зогсоолын сул орон тоог хянаж, машин оруулах логик бүхий системийг зохиох.
+
+### Файлууд
+
+* `ParkingSystem.java`
+* `MainParking.java`
+
+### Жишээ
+
+```
+true
+true
+false
+false
+```
+
+### Ажиллуулах
+
+```
+bash
+javac ParkingSystem.java MainParking.java
+java MainParking
+```
