@@ -21,9 +21,9 @@ public class Employee {
             ns = s + (s * (p / 100));
             n = ns - s;
 
-            System.out.printf("Novo salario: %.2f%n", ns);
-            System.out.printf("Reajuste ganho: %.2f%n", n);
-            System.out.printf("Em percentual: %.0f %%\n", p);
+            System.out.printf("Shine tsalin: %.2f%n", ns);
+            System.out.printf("Nemegdel: %.2f%n", n);
+            System.out.printf("Nemegdel huviar: %.0f %%\n", p);
         }
     }
 }

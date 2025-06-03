@@ -10,7 +10,7 @@ public class Car extends Vehicle {
     @Override
     public void displayDetails() {
         super.displayDetails(); 
-        System.out.println("Trunk Size: " + trunkSize + " cubic feet");
+        System.out.println("Trunk Size: " + trunkSize + " hemjeetei");
     }
 
     public double getTrunkSize() {
@@ -21,7 +21,7 @@ public class Car extends Vehicle {
         if (trunkSize > 0) {
             this.trunkSize = trunkSize;
         } else {
-            System.out.println("Trunk size must be positive.");
+            System.out.println("Hemjee eyreg bh shaardlagatai.");
         }
     }
 } 
